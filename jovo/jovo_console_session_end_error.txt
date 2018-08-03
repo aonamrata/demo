@@ -1,0 +1,82 @@
+------------------------------
+
+{ name: 'country',
+  value: 'pH',
+  key: 'ph',
+  id: 'da984e42a5899bbdac496ef0cbadcee2',
+  alexaSkill:
+   { name: 'country',
+     value: 'pH',
+     resolutions: { resolutionsPerAuthority: [Array] },
+     confirmationStatus: 'NONE' } }
+already connected
+SELECT             ARTISTID,             sum(streams) as counts         FROM  FACTS.PROD.SUMMARY_GEOGRAPHICS_BY_ARTIST         WHERE download_activity_date BETWEEN '2018-07-27' AND '2018-08-03'             AND TERRITORY_CODE ILIKE 'ph'         GROUP BY ARTISTID         ORDER BY counts desc         LIMIT 1;
+Local server did not return a valid JSON response:
+undefined
+{
+        "version": "1.0",
+        "session": {
+                "new": false,
+                "sessionId": "amzn1.echo-api.session.c0be15d5-1ef0-475b-b8fe-ce9ef3dfb613",
+                "application": {
+                        "applicationId": "amzn1.ask.skill.807079c0-fb53-46f5-a0cf-85abf1f4e80a"
+                },
+                "user": {
+                        "userId": "amzn1.ask.account.AFZZQXFOSVRDORB5JJQNH3ZIIZCFTEYZC26FKYLVN4E32OW7JL5HANZJPJW54TVT5EE5MQC2QLWHNO7KUNTGH53I3RS4OND6KHBN5N2UXMH36GCFGK6WSZPNT5JYNJQCALHCHCXYDIM5N6RAC2N7HYVM3DYAZMAOOELFNEH3DYEA6SCMPJ6DOA2KTOVKK2RC7O3VWG6J6QHXLUA"
+                }
+        },
+        "context": {
+                "System": {
+                        "application": {
+                                "applicationId": "amzn1.ask.skill.807079c0-fb53-46f5-a0cf-85abf1f4e80a"
+                        },
+                        "user": {
+                                "userId": "amzn1.ask.account.AFZZQXFOSVRDORB5JJQNH3ZIIZCFTEYZC26FKYLVN4E32OW7JL5HANZJPJW54TVT5EE5MQC2QLWHNO7KUNTGH53I3RS4OND6KHBN5N2UXMH36GCFGK6WSZPNT5JYNJQCALHCHCXYDIM5N6RAC2N7HYVM3DYAZMAOOELFNEH3DYEA6SCMPJ6DOA2KTOVKK2RC7O3VWG6J6QHXLUA"
+                        },
+                        "device": {
+                                "deviceId": "amzn1.ask.device.AFVR4CPHHWAHXWU7J7HD4DNV6JYBI5LHB7KV52Y3CEGZQ35KHJRMEYMWXKG4AUW6YQRHVBLDE3LX5JHNW5THR6XLUNUUMRTLKMWSD4Y7Y2QK6DH5YAAU6W3W5AQEJHLH3ABEU4UIP72BMLFHIVCLMJPOU4JN73QQNDH534KUPMHSYHSF5NSSE",
+                                "supportedInterfaces": {}
+                        },
+                        "apiEndpoint": "https://api.amazonalexa.com",
+                        "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjgwNzA3OWMwLWZiNTMtNDZmNS1hMGNmLTg1YWJmMWY0ZTgwYSIsImV4cCI6MTUzMzMxOTQzMCwiaWF0IjoxNTMzMzE1ODMwLCJuYmYiOjE1MzMzMTU4MzAsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZWUjRDUEhIV0FIWFdVN0o3SEQ0RE5WNkpZQkk1TEhCN0tWNTJZM0NFR1pRMzVLSEpSTUVZTVdYS0c0QVVXNllRUkhWQkxERTNMWDVKSE5XNVRIUjZYTFVOVVVNUlRMS01XU0Q0WTdZMlFLNkRINVlBQVU2VzNXNUFRRUpITEgzQUJFVTRVSVA3MkJNTEZISVZDTE1KUE9VNEpONzNRUU5ESDUzNEtVUE1IU1lIU0Y1TlNTRSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFGWlpRWEZPU1ZSRE9SQjVKSlFOSDNaSUlaQ0ZURVlaQzI2RktZTFZONEUzMk9XN0pMNUhBTlpKUEpXNTRUVlQ1RUU1TVFDMlFMV0hOTzdLVU5UR0g1M0kzUlM0T05ENktIQk41TjJVWE1IMzZHQ0ZHSzZXU1pQTlQ1SllOSlFDQUxIQ0hDWFlESU01TjZSQUMyTjdIWVZNM0RZQVpNQU9PRUxGTkVIM0RZRUE2U0NNUEo2RE9BMktUT1ZLSzJSQzdPM1ZXRzZKNlFIWExVQSJ9fQ.Ky6FQjUCOpMpe3NOnyWdaLoa4wNSgGl71k1qcVr038oQoiriA0fDhkMuhZnWyzHU4Q7OQGGRgY6OmuxJoVoLCrmNGUG4_uFyWdDXs58Ruk22bIunjUch_xSKCmpcaS6QaMSkCUH3LfFcObCAkfjwh5RcRoY-M99Udo3rc7n1BVWzIF5r7CwtPh2HZ3ClZJq_LmIpOX8hNndSCNWzyxCdyKKuokGHXtGtAR19Q2YPgfAKSzpSvjsmwCjWK8ESVJf2D_0H9yxBghBAR1ewapqONkZkMUFMQV-M922aPFJAmtd69rCgPfY4yxsFMe7CkadG80XbqAc9DBPQtkkV51cDvQ"
+                }
+        },
+        "request": {
+                "type": "SessionEndedRequest",
+                "requestId": "amzn1.echo-api.request.d0d21340-ec41-4fc6-a348-216a75498c87",
+                "timestamp": "2018-08-03T17:03:50Z",
+                "locale": "en-US",
+                "reason": "ERROR",
+                "error": {
+                        "type": "INVALID_RESPONSE",
+                        "message": "SpeechletResponse was null"
+                }
+        }
+}
+{
+        "version": "1.0",
+        "response": {
+                "shouldEndSession": true,
+                "outputSpeech": {
+                        "type": "SSML",
+                        "ssml": "<speak>end</speak>"
+                }
+        },
+        "sessionAttributes": {}
+}
+Number of rows produced: 1
+[ { ARTISTID: '917636', COUNTS: 2214036 } ]
+data==
+{ ARTISTID: '917636', COUNTS: 2214036 }
+{
+        "version": "1.0",
+        "response": {
+                "shouldEndSession": true,
+                "outputSpeech": {
+                        "type": "SSML",
+                        "ssml": "<speak>In pH, the most popular artist is 917636 with 2214036 streams in last seven days.</speak>"
+                }
+        },
+        "sessionAttributes": {}
+}
+
